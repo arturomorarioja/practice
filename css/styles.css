@@ -1,0 +1,16 @@
+div {
+    border: thin solid black;  
+}
+
+main > div {
+    height: 400px;
+}
+
+main > div > div {
+    height: 140px;
+    margin: 1rem;
+}
+
+input:invalid {
+    background-color: red;
+}

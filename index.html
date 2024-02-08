@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <main>
+        <div>
+            Top text
+            <div id="first">First text</div>
+            <div id="second">Second text</div>
+        </div>
+        <button id="btnOpenModal">Open modal</button>
+    </main>
+    <dialog>
+        <header>Log in</header>
+        <form>
+            <div>
+                <label for="txtUsername">Username</label>
+                <input type="text" id="txtUsername" pattern="[0-9]{4}">
+            </div>
+            <div>
+                <input type="submit">
+            </div>
+        </form>
+    </dialog>
+</body>
+</html>
